@@ -8,12 +8,17 @@ class ConcreteCustomerEnterpriseProduct implements InterfaceCustomer
 {
     private $name;
 
+    public function __construct(String $name)
+    {
+        $this->name = $name;
+    }
+
     public function setName(String $name)
     {
         $this->name = $name . "(ENTERPRISE)";
     }
 
-    public function getNome(): String
+    public function getName(): String
     {
         return $this->name;
     }

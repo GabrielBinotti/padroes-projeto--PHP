@@ -13,7 +13,7 @@ class ConcreteCustomerIndividualProduct implements InterfaceCustomer
         $this->name = $name . "(INDIVIDUAL)";
     }
 
-    public function getNome(): String
+    public function getName(): String
     {
         return $this->name;
     }

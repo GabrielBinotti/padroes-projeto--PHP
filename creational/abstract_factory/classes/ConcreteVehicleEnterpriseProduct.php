@@ -8,17 +8,18 @@ use creational\abstract_factory\interfaces\InterfaceVehicle;
 class ConcreteVehicleEnterpriseProduct implements InterfaceVehicle
 {
 
-    private $name;
+    private $nameVehicle;
     private $customer;
 
     public function __construct(String $name, InterfaceCustomer $customer)
     {
-        $this->$name = $name;
+        $this->nameVehicle = $name;
         $this->customer = $customer;
     }
 
     public function pickUp(): void
     {
-        echo "{$this->name} está buscando {$this->customer->name} <br>";
+        //echo $this->nameVehicle;
+        print_r("{$this->nameVehicle} está buscando {$this->customer->getName()} <br>");
     }
 }

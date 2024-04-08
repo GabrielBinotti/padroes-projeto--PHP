@@ -19,6 +19,6 @@ class ConcreteVehicleIndividualProduct implements InterfaceVehicle
 
     public function pickUp(): void
     {
-        echo "{$this->name} está buscando {$this->customer->name} <br>";
+        echo "{$this->name} está buscando {$this->customer->getName()} <br>";
     }
 }
