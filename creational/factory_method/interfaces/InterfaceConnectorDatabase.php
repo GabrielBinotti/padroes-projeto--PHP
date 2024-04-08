@@ -1,6 +1,6 @@
 <?php
 
-namespace criational\factory_method\interfaces;
+namespace creational\factory_method\interfaces;
 
 
 /**

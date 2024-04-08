@@ -1,5 +1,5 @@
 <?php
-namespace criational\builder\classes;
+namespace creational\builder\classes;
 
 class Rice extends AbstractMeal
 {

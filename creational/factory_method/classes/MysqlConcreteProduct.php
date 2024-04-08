@@ -1,8 +1,8 @@
 <?php
 
-namespace criational\factory_method\classes;
+namespace creational\factory_method\classes;
 
-use criational\factory_method\interfaces\InterfaceConnectorDatabase;
+use creational\factory_method\interfaces\InterfaceConnectorDatabase;
 
 class MysqlConcreteProduct implements InterfaceConnectorDatabase
 {

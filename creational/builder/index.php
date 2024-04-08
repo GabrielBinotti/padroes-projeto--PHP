@@ -1,6 +1,6 @@
 <?php
 
-use criational\builder\classes\MainMealBuilder;
+use creational\builder\classes\MainMealBuilder;
 
 require_once "../../vendor/autoload.php";
 

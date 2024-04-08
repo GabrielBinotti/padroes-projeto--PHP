@@ -1,5 +1,5 @@
 <?php
-namespace criational\builder\interfaces;
+namespace creational\builder\interfaces;
 
 interface InterfaceMeal
 {

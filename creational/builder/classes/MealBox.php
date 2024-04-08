@@ -1,8 +1,8 @@
 <?php
 
-namespace criational\builder\classes;
+namespace creational\builder\classes;
 
-use criational\builder\interfaces\InterfaceMeal;
+use creational\builder\interfaces\InterfaceMeal;
 
 
 class MealBox implements InterfaceMeal

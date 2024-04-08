@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'criational\\' => array($baseDir . '/criational'),
+    'creational\\' => array($baseDir . '/creational'),
 );

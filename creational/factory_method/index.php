@@ -1,6 +1,6 @@
 <?php
 
-use criational\factory_method\classes\MysqlConcreteCreator;
+use creational\factory_method\classes\MysqlConcreteCreator;
 
 require_once "../../vendor/autoload.php";
 

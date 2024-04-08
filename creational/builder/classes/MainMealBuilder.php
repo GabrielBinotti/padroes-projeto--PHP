@@ -1,8 +1,8 @@
 <?php
 
-namespace criational\builder\classes;
+namespace creational\builder\classes;
 
-use criational\builder\interfaces\InterfaceBuilder;
+use creational\builder\interfaces\InterfaceBuilder;
 
 class MainMealBuilder implements InterfaceBuilder
 {
