@@ -10,6 +10,7 @@
 
 ## Diagrama
 
+![](Bridge.jpeg)
 
 ## Aplicabilidade
 * Quando você quer evitar um vínculo permanente entre uma abstração e sua implementação. Isso pode ser útil, por exemplo, quando a implementação deve ser selecionada ou alterada em tempo de execução.
