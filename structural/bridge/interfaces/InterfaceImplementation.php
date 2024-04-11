@@ -2,12 +2,20 @@
 
 namespace structural\bridge\interfaces;
 
-interface interfaceImplementation
+interface InterfaceImplementation
 {
-    public function setPower(bool $powerStatus) : void;
-    public function getPower() : bool;
 
-    public function setVolume(int $volume) : void;
-    public function getVolume() : int;
-    
+    public function renderTitle(string $title): string;
+
+    public function renderTextBlock(string $text): string;
+
+    public function renderImage(string $url): string;
+
+    public function renderLink(string $url, string $title): string;
+
+    public function renderHeader(): string;
+
+    public function renderFooter(): string;
+
+    public function renderParts(array $parts): string;
 }
