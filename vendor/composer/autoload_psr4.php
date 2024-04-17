@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'structural\\' => array($baseDir . '/structural'),
     'creational\\' => array($baseDir . '/creational'),
+    'behavioural\\' => array($baseDir . '/behavioural'),
 );

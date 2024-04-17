@@ -15,6 +15,10 @@ class ComposerStaticInit8e78a6e7076efaa071bc0e99b0ee10e0
         array (
             'creational\\' => 11,
         ),
+        'b' => 
+        array (
+            'behavioural\\' => 12,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -25,6 +29,10 @@ class ComposerStaticInit8e78a6e7076efaa071bc0e99b0ee10e0
         'creational\\' => 
         array (
             0 => __DIR__ . '/../..' . '/creational',
+        ),
+        'behavioural\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/behavioural',
         ),
     );
 
