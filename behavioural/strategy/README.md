@@ -2,7 +2,7 @@
 
 Permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
 
-## Cmmo Funciona
+## Como Funciona
 * Interface Strategy: Define uma interface comum para todos os algoritmos suportados. Cada algoritmo encapsulado por uma classe que implementa esta interface.
 
 * Concrete Strategies: São classes concretas que implementam a interface Strategy, cada uma representando um algoritmo específico ou comportamento.
